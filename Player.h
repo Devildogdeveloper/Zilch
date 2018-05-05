@@ -1,0 +1,36 @@
+#pragma once
+
+#include <string>
+
+using namespace std;
+
+class Player {
+private:
+	string name;
+	int score;
+	bool inGame;
+
+public:
+	Player();
+	Player(string name); // New player constructor
+
+	string Name(); // show Name
+	
+	void AddScore(int value); // add to score
+	int Score(); // show score	
+	
+	void SetInGame(); // set inGame	
+	bool InGame();	// return inGame status
+	
+	void Alice();
+	void Alice(int score, void AddScore(int value), string Name);
+
+	void Stan();
+	void Stan(int score, void AddScore(int value), string Name);
+
+	void Tim();
+	void Tim(int score, void AddScore(int value), string Name);
+
+
+
+};
